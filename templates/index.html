@@ -1,0 +1,331 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'css/index.css' %}">
+    <script src="https://kit.fontawesome.com/d2cb0d672f.js" crossorigin="anonymous"></script>
+    <title>cafe</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Zinger Cafe☕ </a>
+              <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav  ms-auto mb-2 mb-lg-1">
+                  <li class="nav-item mx-lg-2">
+                    <a class="nav-link "  href="#home">Home</a>
+                  </li>
+                  <li class="nav-item mx-lg-2">
+                    <a class="nav-link " href="#about">About</a>
+                  </li>
+                  <li class="nav-item mx-lg-2">
+                    <a class="nav-link " href="#menu">Menu</a>
+                  </li>
+                  <li class="nav-item mx-lg-2">
+                    <a class="nav-link" href="#Testimonials">Testimonials</a>
+                    </li>
+                  <li class="nav-item mx-lg-2">
+                    <a class="nav-link " href="#gallery">Gallery</a>
+                  </li>
+                 
+                  <li class="nav-item mx-lg-2">
+                    <a class="nav-link" href="#contact" >Contact</a>
+                  </li>
+                </ul>
+               
+              </div>
+            </div>
+          </nav>
+    </header>
+ 
+    <div class="container-fluid cnt1" id="home"> 
+        <div class="row"> 
+            <div class="c1 col-md-6 ">
+                <h2>BEST COFFEE IN TOWN IS  NOW HERE!!!!</h2>
+                <h4>Welcome to ZINGER CAFE where Every Sip Tells a Story....</h4>
+             <br>
+             <p>Step into our cozy corner of the world,<br> where fresh brews, delicious bites, and warm smiles await you.</p>
+             <button class="btn b1">Order Now</button>
+             <button class="btn  b2 btn-outline">Contact us</button>
+
+            </div>
+            <div class="c2 col-md-6">
+                <img  class="img-fluid" src="{% static 'img/coffee2.png' %}" alt="Cafe Image" >
+                
+            </div>
+
+        </div>
+      
+            
+    </div>
+ 
+   <div class="container-fluid cnt2" id="about">
+    <div class="row">
+      <div class="c3 col-md-6 d-flex justify-content-center">
+        <img  class="img-fluid" src="{% static 'img/cnt2(1).png' %}" alt="cafe image">
+        
+      </div>
+      <div class="c4 col-md-6 align-items-center ">
+       
+        <h1 class="orange"> ABOUT US</h1>
+       
+        <p> since 2016,<br>
+                  Located in the heart of the city,<br>
+        we’re your go-to spot for fresh brews, tasty bites, and warm vibes.<br>
+        Whether you’re grabbing your morning coffee, catching up with friends,<br>
+        or just unwinding, <strong>ZINGER Café</strong> is where comfort meets flavor.<br>
+        Come for the coffee, Stay for the vibe.
+      </p>
+      
+       
+        <i class="px-1 fs-2 fa-brands fa-facebook me-1"></i>
+        <i class="px-2 fs-2 fa-brands fa-instagram me-1"></i>
+        <i class="px-2 fs-2 fa-brands fa-x-twitter me-1"></i></div>
+      </div>
+    </div>
+   
+<style>
+  .orange{
+    color: orange !important;
+  }
+  .white{
+    color: white !important;
+  }
+</style>
+   <div class="container-fluid cnt3" id="menu">
+    <center><h2 class="orange">Our Menu</h2></center>
+    
+      <div class="r1 row text-center">
+        <div class="col-12 col-sm-6  col-md-4">
+          <img src="{% static 'img/hot.png' %}" alt="Hot" class="img-fluid"><br>
+          <center><p class="white">Hot Beverages</p></center>
+        </div>
+        <div class="col-12 col-sm-6  col-md-4">
+          <img src="{% static 'img/refreshments.png' %}" alt="Refreshments" class="img-fluid">
+          <center><p class="white">Refreshments</p></center>
+        </div>
+        <div class="col-12 col-sm-6  col-md-4">
+          <img src="{% static 'img/cold.png' %}" alt="Cold" class="img-fluid">
+          <center><p class="white">Milkshakes</p></center>
+    
+        </div>
+
+    
+        <div class="col-12 col-sm-6  col-md-4">
+          <img src="{% static 'img/combo.png' %}" alt="Combos" class="img-fluid">
+          <center><p class="white">Bites</p></center>
+            </div>
+        <div class="col-12 col-sm-6  col-md-4">
+          <img src="{% static 'img/dessert.png' %}" alt="Dessert" class="img-fluid">
+          <center><p class="white">Dessert</p></center>
+        </div>
+        <div class="col-12 col-sm-6  col-md-4">
+          <img src="{% static 'img/pasta.png' %}" alt="Bites" class="img-fluid">
+          <center><p class="white">Pasta</p></center>
+        </div>
+  
+      </div>
+   </div>
+
+ <div class="container-fluid cnt4 " id="Testimonials">
+  <div class="test">
+    <center><h1 class="mt-4 orange">Testimonials</h1></center>
+  <div class="r3 row mt-5 mb-5 text-center">
+    <div class="card p-3 col-12 col-md-4 col-xl-3" style="width: 18rem;">
+      <img src="{% static 'img/1 (1).jpg' %}" class="card-img-top" alt="...">
+      <div class="card-body">
+        <p class="card-text">The pastries are fresh, flavorful, and beautifully presented. You can tell they use quality ingredients😎. 
+          Great with a cappuccino! <br> <strong>Rachel Green</strong></p>
+      </div>
+    </div>
+    <div class="card p-3 col-12 col-md-4 col-xl-3" style="width: 18rem;">
+      <img src="{% static 'img/1 (3).jpg' %}" class="card-img-top" alt="...">
+      <div class="card-body">
+        <p class="card-text">I absolutely love the cozy vibe of this café😻😼. The ambiance is perfect for catching up with friends or working on my laptop. 
+          
+          Highly recommend! <br><strong>Faridha </strong></p>
+      </div>
+    </div>
+    <div class="card p-3 col-12 col-md-4 col-xl-3" style="width: 18rem;">
+      <img src="{% static 'img/1 (2).jpg' %}" class="card-img-top" alt="...">
+      <div class="card-body">
+        <p class="card-text">The coffee here is hands down the best I’ve had! Rich, smooth, and just the right amount of strength. A must-visit spot for coffee lovers.
+
+          <br><strong>L J Hamilton </strong>
+        </p>
+      </div>
+    </div>
+    <div class="card p-3 col-12 col-md-4 col-xl-3" style="width: 18rem;">
+      <img src="{% static 'img/1 (4).jpg' %}" class="card-img-top" alt="...">
+      <div class="card-body">
+        <p class="card-text">From flaky croissants to freshly brewed coffee☕, this place made my morning. Friendly staff and quick service too!😍😘
+          <br><strong>Rhea Alex </strong>
+        </p>
+      </div>
+    </div>
+  </div>
+  </div>
+ </div>
+
+<div class="container-fluid cnt5 " id="gallery">
+  <div class="">
+    <center><h1 class="orange">Gallery</h1></center>
+  
+  <div class="row p-5">
+    <div class="col-12 col-sm-6  cnt5-img-container col-md-4 col-xl-4">
+      <img src="{% static 'img/2 (21).jpg' %}" alt="Gallery Image" class="img-fluid">
+    </div>
+    <div class="col-12 col-sm-6  cnt5-img-container col-md-4 col-xl-4">
+      <img src="{% static 'img/2 (11).jpg' %}" alt="Gallery Image" class="img-fluid">
+    </div>
+    <div class="col-12 col-sm-6  cnt5-img-container col-md-4 col-xl-4">
+      <img src="{% static 'img/2 (7).jpg' %}" alt="Gallery Image" class="img-fluid">
+    </div>
+  
+    <div class="col-12 col-sm-6  cnt5-img-container col-md-4 col-xl-4">
+      <img src="{% static 'img/2 (12).jpg' %}" alt="Gallery Image" class="img-fluid">
+    </div>
+    <div class="col-12 col-sm-6  cnt5-img-container col-md-4 col-xl-4">
+      <img src="{% static 'img/2 (16).jpg' %}" alt="Gallery Image" class="img-fluid">
+    </div>
+    <div class="col-12 col-sm-6  cnt5-img-container col-md-4 col-xl-4">
+      <img src="{% static 'img/2 (4).jpg' %}" alt="Gallery Image" class="img-fluid">
+    </div>
+  
+    <div class="col-12 col-sm-6  cnt5-img-container col-md-4 col-xl-4">
+      <img src="{% static 'img/2 (8).jpg' %}" alt="Gallery Image" class="img-fluid">
+    </div>
+    <div class="col-12 col-sm-6  cnt5-img-container col-md-4 col-xl-4">
+      <img src="{% static 'img/2 (15).jpg' %}" alt="Gallery Image" class="img-fluid">
+    </div>
+    <div class="col-12 col-sm-6  cnt5-img-container col-md-4 col-xl-4">
+      <img src="{% static 'img/2 (6).jpg' %}" alt="Gallery Image" class="img-fluid">
+    </div>
+  </div>
+  </div>
+</div>
+<hr class="primary">
+
+
+  <div class="container-fluid cnt6 p-5" id="contact">
+   <center> <h1>Contact Us</h1></center>
+    <div class="row">
+      <div class=" addr col-md-6 addr  mt-5 mb-5">
+      
+<strong><address>
+  ZINGER Café
+<br><br>
+  122,whitefield road,<br><br>
+  Bangalore, Karnataka,<br><br>  
+  India.<br><br>
+  Phone: +91 1234567890<br><br>
+  Email: zinger@gmail.com<br><br>
+  Website: www.zingercafe.com<br><br>
+  <a href="https://goo.gl/maps/xyz123" style="text-decoration: none;" target="_blank">View us on Google Maps</a><br>
+
+</address></strong>
+<script>
+    const lines = document.getElementsByTagName("address");
+
+for (let i = 0; i < lines.length; i++) {
+  lines[i].addEventListener("mouseover", function () {
+    lines[i].style.color = "tomato";
+  });
+
+  lines[i].addEventListener("mouseout", function () {
+    lines[i].style.color = " rgba(125, 44, 27, 0.555)";
+  });
+}
+</script>
+      </div>
+
+      <div class="forrm col-md-6">
+  
+       <!-- Include jQuery if not already -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<div class="container-fluid mt-5 mb-5">
+  <div id="feedback-message"></div>
+
+  <form id="feedback-form" method="POST">
+    {% csrf_token %}
+    <div class="mb-3">
+      <label for="name" class="form-label">Name</label>
+      <input type="text" class="form-control" id="name" name="name" required>
+    </div>
+    <div class="mb-3">
+      <label for="email" class="form-label">Email</label>
+      <input type="email" class="form-control" id="email" name="email" required>
+    </div>
+    <div class="mb-3">
+      <label for="message" class="form-label">Message</label>
+      <textarea class="form-control" id="message" name="message" rows="4" required></textarea>
+    </div>
+    <button type="submit" class="btn btn-primary">Send Message</button>
+  </form>
+</div>
+
+<script>
+  $(document).ready(function () {
+    $('#feedback-form').submit(function (e) {
+      e.preventDefault(); // prevent form from submitting normally
+
+      $.ajax({
+        type: 'POST',
+        url: '', // submits to current URL
+        data: $(this).serialize(),
+        headers: { "X-CSRFToken": "{{ csrf_token }}" },
+        success: function (response) {
+          $('#feedback-message').html(
+            '<div class="alert alert-success mt-3">Feedback submitted successfully!</div>'
+          );
+          $('#feedback-form')[0].reset();
+        },
+        error: function () {
+          $('#feedback-message').html(
+            '<div class="alert alert-danger mt-3">An error occurred. Please try again.</div>'
+          );
+        }
+      });
+    });
+  });
+</script>
+
+      
+        </div>
+      </div>
+    </div>
+
+
+
+       <div class="container-fluid bg-dark text-light py-3 cnt7">
+
+        
+          <div class="row text-start text-md-left">
+            <div class="col-md-4 text-start text-md-start mb-2 mb-md-0">
+              ©2024 ZINGER Cafe
+            </div>
+            <div class="col-md-4 text-start text-md-center  mb-2 mb-md-0">
+              <i class="px-2 fa-brands fa-facebook me-2"></i>
+              <i class="px-2 fa-brands fa-instagram me-2"></i>
+              <i class="px-2 fa-brands fa-x-twitter me-2"></i>
+            </div>
+            <div class=" al col-md-4 text-start text-md-end">
+              <a href="#" class="text-light text-decoration-none me-3">Privacy Policy</a>
+              <a href="#" class="text-light text-decoration-none me-2">Refund Policy</a>
+            </div>
+        
+        </div>
+       </div>
+        
+        
+</body>
+</html>

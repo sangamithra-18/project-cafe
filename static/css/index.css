@@ -1,0 +1,322 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Comic+Relief:wght@400;700&family=Miniver&display=swap');
+
+*
+{
+      margin: 0;
+       
+         font-family: "Comic Relief", system-ui;
+}
+
+.navbar {
+        background-color:#4d0000; 
+    }
+    
+    .navbar-brand {
+        color: rgba(226, 226, 152, 0.934);
+        font-family: "Comic Relief", system-ui;
+        font-weight: 700;
+        font-size: 10;
+        
+    }
+    
+    
+    
+    .navbar-nav .nav-link {
+        color:  rgba(226, 226, 152, 0.934); 
+        font-family: "Comic Relief", system-ui;
+        font-weight: 400;
+        
+    }
+    .nav-link:hover {
+        color:  rgba(20, 20, 17, 0.934); 
+        background-color: rgba(226, 226, 152, 0.342);
+        border-radius: 10px;
+        
+    }
+   
+    
+    .cnt1 {
+        background-color: #4d0000; /* or your color */
+        width: 100%;
+        padding-top: 5vh;  /* instead of margin-top inside children */
+        padding-bottom: 5vh;
+        padding-left: 10vh;
+    }
+     
+
+.c1 h2{
+        color:  rgba(226, 226, 152, 0.525);
+        font-weight: 600;
+        
+        margin-top: 22vh;
+        font-family: "Comic Relief", system-ui;
+     
+}
+.c1 h4{
+        color:  rgba(226, 226, 152, 0.525);
+        font-weight: 400;
+        
+       
+        font-family: "Comic Relief", system-ui;
+     
+}
+.c1 p{
+        color:  rgba(241, 241, 235, 0.525);
+        font-weight: 400;
+        
+       
+        font-family: "Comic Relief", system-ui;
+}
+
+.c2 img{
+        margin: auto;
+        width: 90vh;
+        height: 85vh;
+        margin-top:0;
+        
+}
+.b1{
+        background-color: rgba(226, 226, 152, 0.934);
+        color: rgba(20, 20, 17, 0.934);
+        font-family: "Comic Relief", system-ui;
+        font-weight: 400;
+        border-radius: 10px;
+        
+        margin-top: 5vh;                                                        
+}
+.b1:hover{
+        background-color: rgba(20, 20, 17, 0.934);
+        color: rgba(226, 226, 152, 0.934);
+        font-family: "Comic Relief", system-ui;
+        font-weight: 400;
+                                                            
+}
+.b2{
+        background-color: rgba(152, 168, 226, 0.544);
+        color: rgba(20, 20, 17, 0.934);
+        font-family: "Comic Relief", system-ui;
+        font-weight: 400;
+        border-radius: 10px;
+        
+        margin-top: 5vh;                                                        
+}
+.b2:hover{
+        background-color: rgba(20, 20, 17, 0.934);
+        color:rgba(152, 168, 226, 0.544);
+        font-family: "Comic Relief", system-ui;
+        font-weight: 400;                                                       
+}
+.cnt2 { 
+        background-color:rgb(228, 209, 209);
+        width: 100%;
+        padding-top: 5vh;  /* instead of margin-top inside children */
+        padding-bottom: 5vh;
+         
+}
+.c3{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+        
+ 
+}
+@media (max-width: 300px) {
+        .c3 img {         
+          width: 25vh !important;
+          height: 25vh !important;
+          border-radius: 50%;    
+        }
+      }
+      
+.c3 img
+{
+        margin: auto;
+        width: 45vh;
+        height:  45vh   ;
+        
+       
+        border-radius: 450px;
+}
+
+.c4 h1{
+        color:  rgba(20, 20, 17, 0.459);
+        font-weight: 700;
+       
+        margin-top: 7vh;
+        font-family: "Comic Relief", system-ui;
+}
+
+.c4 p
+{
+        color: #4d23238f;
+        font-weight: 700;       
+        margin-top: 2vh;
+        font-family: "Comic Relief", system-ui;
+
+}
+.cnt3
+{
+        background-color:rgba(0, 0, 0, 0.812); 
+        width: 100%;
+        padding-top: 5vh; 
+        padding-bottom: 5vh;
+}
+
+
+.cnt3 h2
+{
+        color:  rgba(121, 118, 118, 0.377);
+        font-weight: 500;
+        font-family: "Comic Relief", system-ui;
+        font-size: xx-large;
+}
+.cnt3 img{
+
+        margin: auto;
+        width:  35vh;
+        height: 35vh;
+        margin-top:2vh;
+      
+}
+.cnt3 img:hover{
+        transform: scale(1.5);
+        transition: 0.6s;
+}
+
+.cnt3 p{
+        color:  rgba(121, 118, 118, 0.377);
+        font-weight: 500;
+        font-family: "Comic Relief", system-ui;
+        font-size: large;
+        margin-top: 2vh;
+        margin-left: 5vh;       
+}
+
+.cnt4{
+        background-color:rgba(72, 70, 70, 0.3);
+                width: 100%;
+        padding-top: 5vh; 
+        padding-bottom: 5vh;                                                                    
+}
+.test{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+}
+.test .row{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        
+}
+.cnt4 .card{
+        background-color:rgba(72, 70, 70, 0.607);
+        
+        margin-top: 5vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;    
+}
+.cnt4 .card p{
+        color:  rgba(4, 4, 4, 0.404);
+        font-weight: 500;
+        font-family: "Comic Relief", system-ui;
+        font-size: large;
+        margin-top: 2vh;
+}
+.cnt4 h1
+{        color:  rgba(4, 4, 4, 0.404);
+     
+        font-weight: 500;
+        font-family: "Comic Relief", system-ui;
+        font-size: xx-large;
+}
+.cnt4 .r3{
+        
+         gap:5vh;
+
+}
+.cnt4 .card img{
+       
+        width: 20vh;
+        height: 20vh;
+        border-radius: 100px;
+        
+      
+        
+} 
+
+
+
+
+.cnt4 .card:hover{
+        transform: scale(1.1);
+        transition: 0.5s;
+
+}     
+.cnt5 {
+        background-color:rgb(228, 209, 209); 
+        color:  rgba(125, 44, 27, 0.555) ;
+        width: 100%;
+        padding-top: 5vh; 
+        padding-bottom: 5vh;
+}
+
+.gal{
+        display: flex;
+        flex-direction: column;
+        justify-content: center !important;
+        
+}
+.cnt5 img{
+        
+        width:  40vh;
+        height: 40vh;
+        margin-top:2vh;}
+.cnt5 img:hover{
+        transform: scale(1.1);
+        transition: 0.5s;
+        cursor:zoom-in;
+}
+
+
+.cnt5-img-container{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+}
+
+
+       
+.cnt6 {
+        background-color:rgb(228, 209, 209); 
+        color:  rgba(125, 44, 27, 0.555) ;
+        width: 100%;
+        padding-top: 5vh; 
+        padding-bottom: 5vh;
+}
+.cnt6  .forrm{
+        
+        margin-top: 5vh;
+        
+       
+        background-color: rgba(45, 45, 43, 0.158);
+        border-radius:  10px;
+         
+}
+
+address{
+        padding-left: 4vh;
+        margin-top: 5vh;
+        overflow: hidden;
+}
+
+i:hover{
+        transform: scale(1.5);
+        transition: 0.6s;       
+        color: saddlebrown;
+}
